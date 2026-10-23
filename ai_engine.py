@@ -7,7 +7,7 @@ from openai import AsyncOpenAI
 load_dotenv()
 log = logging.getLogger(__name__)
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "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").strip()
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini").strip()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "").strip()
